@@ -13,3 +13,4 @@ git pull -                     Fatch and merge changes from a remote repository 
 git push -                     Push your local changes to a remote repository.
 git fatch -                    Retrieve changes from a remote repository
 git pull --rebase origin main  This will update your local branch with the latest changes from the remote repository before applying your local commits.
+git merge --abort               Don't allow to merger conflict.
