@@ -9,8 +9,8 @@ git checkout <branch_name> -   Switch to a different branch.
 git branch -m new_branch_name- Rename the current branch locally
 git push origin -u new_branch_name -  Push the renamed branch to the remote repository
 git merge <branch_name> -      Merge changes from the specified branch into the current branch.
-git pull -                     Fatch and merge changes from a remote repository into your current branch.
+git pull -                     Fetch + Merge the remote changes in working directory.
 git push -                     Push your local changes to a remote repository.
-git fatch -                    Retrieve changes from a remote repository
+git fatch -                    Retrieve changes from a remote repository but do not auto merge in working directory
 git pull --rebase origin main  This will update your local branch with the latest changes from the remote repository before applying your local commits.
 git merge --abort               Don't allow to merger conflict.
